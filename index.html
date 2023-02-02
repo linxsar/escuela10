@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Buscador de Datos</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center">Buscador de Datos</h1>
+      <div class="form-group mt-5">
+        <input type="text" class="form-control" id="searchInput" placeholder="Ingresa un valor a buscar">
+        <button type="button" class="btn btn-primary mt-2" id="searchBtn">Buscar</button>
+        <button type="button" class="btn btn-secondary mt-2" id="clearBtn">Limpiar</button>
+      </div>
+      <table class="table table-bordered mt-5" id="dataTable">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Juan</td>
+            <td>Pérez</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>María</td>
+            <td>García</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>Pedro</td>
+            <td>Martínez</td>
+            <td>35</td>
+          </tr>
+          <tr>
+            <td>Matías</td>
+            <td>Fader</td>
+            <td>45</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="search.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
