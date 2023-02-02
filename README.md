@@ -1,2 +1,2 @@
-# escuela10.github.io
+# escuela10
 Buscador de Datos
